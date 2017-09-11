@@ -20,12 +20,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfS-JF-OWD" userLabel="btn">
+                                <rect key="frame" x="158.5" y="318.5" width="57" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="click me"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="GV7-SA-vNI"/>
+                                    <constraint firstAttribute="height" constant="30" id="tj4-WW-CVW"/>
+                                </constraints>
+                                <state key="normal" title="click me"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BfS-JF-OWD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Uha-mP-gh1"/>
+                            <constraint firstItem="BfS-JF-OWD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ggn-A6-vIq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-303" y="143"/>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
         <!--Example View Controller-->
         <scene sceneID="amo-CS-Iuh">
