@@ -38,7 +38,17 @@
                     <view key="view" contentMode="scaleToFill" id="fNv-xp-5Zf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3h-XN-pzr">
+                                <rect key="frame" x="166" y="617" width="42" height="30"/>
+                                <state key="normal" title="Log In"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mGD-Sf-vXr" firstAttribute="top" secondItem="v3h-XN-pzr" secondAttribute="bottom" constant="20" id="qa9-Pf-m2p"/>
+                            <constraint firstItem="v3h-XN-pzr" firstAttribute="centerX" secondItem="fNv-xp-5Zf" secondAttribute="centerX" id="uKP-Tu-5Xw"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz5-Dc-WHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
