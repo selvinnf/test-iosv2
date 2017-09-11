@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		079E11E8F7F86418B1E25AA2 /* Pods_test_iosv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7354A05EF492E4D77C3E023F /* Pods_test_iosv2.framework */; };
+		B9A8C0871F66F4B600F69674 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8C0861F66F4B600F69674 /* ExampleViewController.swift */; };
 		ED7F4D671F66F1F700AE92E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4D661F66F1F700AE92E4 /* AppDelegate.swift */; };
 		ED7F4D691F66F1F700AE92E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4D681F66F1F700AE92E4 /* ViewController.swift */; };
 		ED7F4D6C1F66F1F700AE92E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4D6A1F66F1F700AE92E4 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		7354A05EF492E4D77C3E023F /* Pods_test_iosv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_iosv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A8C0861F66F4B600F69674 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		C2B80A65FE7B66897BD8BCE2 /* Pods-test-iosv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-iosv2.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-iosv2/Pods-test-iosv2.release.xcconfig"; sourceTree = "<group>"; };
 		C3307D348374722762FB7697 /* Pods-test-iosv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-iosv2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-iosv2/Pods-test-iosv2.debug.xcconfig"; sourceTree = "<group>"; };
 		ED7F4D631F66F1F700AE92E4 /* test-iosv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-iosv2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				ED7F4D6D1F66F1F700AE92E4 /* Assets.xcassets */,
 				ED7F4D6F1F66F1F700AE92E4 /* LaunchScreen.storyboard */,
 				ED7F4D721F66F1F700AE92E4 /* Info.plist */,
+				B9A8C0861F66F4B600F69674 /* ExampleViewController.swift */,
 			);
 			path = "test-iosv2";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			files = (
 				ED7F4D691F66F1F700AE92E4 /* ViewController.swift in Sources */,
 				ED7F4D671F66F1F700AE92E4 /* AppDelegate.swift in Sources */,
+				B9A8C0871F66F4B600F69674 /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
