@@ -16,6 +16,7 @@ class Channel : Mappable {
     var urn : String?
     var mediaUrl : String?
     var enable : Bool? = false
+    var description: String?
     
     required init?(map: Map) {
         
@@ -28,5 +29,6 @@ class Channel : Mappable {
         self.urn <- map["urn"]
         self.mediaUrl <- map["media-url"]
         self.enable <- map["enable"]
+        self.description <- map["description"]
     }
 }
