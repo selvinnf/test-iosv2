@@ -20,6 +20,7 @@ class ExampleViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        // Vamos a agregar un comentario sobre esta clase
     }
     
     
