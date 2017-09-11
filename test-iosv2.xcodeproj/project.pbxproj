@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		079E11E8F7F86418B1E25AA2 /* Pods_test_iosv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7354A05EF492E4D77C3E023F /* Pods_test_iosv2.framework */; };
+		ED6C79001F66F4EE00999BB4 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C78FF1F66F4EE00999BB4 /* Channel.swift */; };
 		ED7F4D671F66F1F700AE92E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4D661F66F1F700AE92E4 /* AppDelegate.swift */; };
 		ED7F4D691F66F1F700AE92E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F4D681F66F1F700AE92E4 /* ViewController.swift */; };
 		ED7F4D6C1F66F1F700AE92E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7F4D6A1F66F1F700AE92E4 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		7354A05EF492E4D77C3E023F /* Pods_test_iosv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_iosv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B80A65FE7B66897BD8BCE2 /* Pods-test-iosv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-iosv2.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-iosv2/Pods-test-iosv2.release.xcconfig"; sourceTree = "<group>"; };
 		C3307D348374722762FB7697 /* Pods-test-iosv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-iosv2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-iosv2/Pods-test-iosv2.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6C78FF1F66F4EE00999BB4 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		ED7F4D631F66F1F700AE92E4 /* test-iosv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-iosv2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7F4D661F66F1F700AE92E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED7F4D681F66F1F700AE92E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				ED7F4D6D1F66F1F700AE92E4 /* Assets.xcassets */,
 				ED7F4D6F1F66F1F700AE92E4 /* LaunchScreen.storyboard */,
 				ED7F4D721F66F1F700AE92E4 /* Info.plist */,
+				ED6C78FF1F66F4EE00999BB4 /* Channel.swift */,
 			);
 			path = "test-iosv2";
 			sourceTree = "<group>";
@@ -182,10 +185,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-test-iosv2/Pods-test-iosv2-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -218,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7F4D691F66F1F700AE92E4 /* ViewController.swift in Sources */,
+				ED6C79001F66F4EE00999BB4 /* Channel.swift in Sources */,
 				ED7F4D671F66F1F700AE92E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

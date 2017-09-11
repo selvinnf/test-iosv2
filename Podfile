@@ -7,5 +7,6 @@ target 'test-iosv2' do
 
   # Pods for test-iosv2
   pod 'Alamofire', '~> 4.4.0'
+  pod 'AlamofireObjectMapper', '~> 4.1.0'
 
 end
