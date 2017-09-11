@@ -117,6 +117,9 @@
 		ED7F4D5B1F66F1F700AE92E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"click me",
+				);
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Selvin Naz";
